@@ -102,7 +102,6 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
 .venv
 env/
 venv/
@@ -186,10 +185,10 @@ sdks/python-client/build
 sdks/python-client/dist
 sdks/python-client/dify_client.egg-info
 
-.vscode/*
 !.vscode/launch.json
 pyrightconfig.json
 api/.vscode
 
 .idea/
-.vscode
+config.bat
+node_modules
